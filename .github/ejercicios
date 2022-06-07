@@ -1,0 +1,52 @@
+def welcome():
+    print("Hola bienvenidos a nuestra aplicación Python")
+
+
+def ing2i():
+    a = int(input("Ingresa un valor: "))
+    b = int(input("Ingresa otro valor: "))
+ 
+
+def  ing2s():
+    a = str(input("Ingresa un valor: "))
+    b = str(input("Ingresa otro valor: "))
+
+
+def suma(a,b):
+    print (a + b)
+    
+def resta(a,b):
+    print (a - b)
+
+def producto(a,b):
+    print (a * b)
+
+def cociente(a,b):
+    print (a / b)
+
+def modulo(a,b):
+    print (a % b)
+
+def potencia(a,b):
+    print (a ** b)
+
+def radicacion():
+    num = int(input("Raíz cuadrada de:"))
+    raiz = num** (1/2)
+    print(raiz)
+    print("La raiz cuadrada de", num , "es", raiz )
+
+def p1(a,b,c):
+    print(producto(a,b) + c)
+
+def p2(a,b,c):
+    print(suma(a,b) * c)
+
+def p1(a,b,c):
+    print(resta(a,b) * c)
+
+
+
+
+
+
