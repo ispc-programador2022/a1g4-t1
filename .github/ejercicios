@@ -42,8 +42,20 @@ def p1(a,b,c):
 def p2(a,b,c):
     print(suma(a,b) * c)
 
-def p1(a,b,c):
+def p3(a,b,c):
     print(resta(a,b) * c)
+
+import random
+
+def genrnd(cantidad, rango):
+    lista = []
+    for n in range(0, cantidad):
+        number = random.randrange(rango)        
+        lista.append(number)
+    return print(lista)
+
+#genrnd(50, 10)
+#genrnd(500_000_000_000_000_000, 10)
 
 
 
