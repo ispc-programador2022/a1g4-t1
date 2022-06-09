@@ -5,3 +5,4 @@ def welcome():
 def ing2i():
     a = int(input("Ingresa un numero entero: "))
     b = int(input("Ingresa otro numero entero: "))
+    
