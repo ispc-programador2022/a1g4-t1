@@ -1,0 +1,7 @@
+def welcome():
+    print("Hola bienvenidos a nuestra aplicación Python Aula 1 Grupo 4")
+
+
+def ing2i():
+    a = int(input("Ingresa un numero entero: "))
+    b = int(input("Ingresa otro numero entero: "))
