@@ -1,7 +1,7 @@
 <!-- # Aula 1 - Grupo 4 -->
 
 ---
-
+Nota: Estan los trabajos realizados hasta el punto 11
 ## Integrantes:
 
 - Aukha Asurey
