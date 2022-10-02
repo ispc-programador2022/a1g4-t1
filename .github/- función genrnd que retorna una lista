@@ -1,0 +1,10 @@
+import random
+num_rand = []
+
+def genrnd(a, b):
+    for i in range(500000000000000000):
+        num_rand.append(random.uniform(a,b))
+        
+        
+genrnd(100, 200)
+print(num_rand)
