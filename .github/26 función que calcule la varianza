@@ -1,0 +1,20 @@
+import random
+import statistics
+
+num_rand = []
+var_num_rand=[]
+
+def genrnd(a, b):
+    for i in range(500000000000000000):
+        num_rand.append(random.uniform(a,b))
+      
+
+def varianza(f):
+    var_num_rand = statistics.variance(f)
+    return var_num_rand
+        
+genrnd(100, 200)
+
+print(num_rand)
+
+print(varianza(num_rand))
