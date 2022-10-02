@@ -1,0 +1,8 @@
+import random
+
+def genrnd():
+
+    rnd = [random.randint(0, 100) for _ in range(50)]
+    return rnd
+
+print(genrnd())
