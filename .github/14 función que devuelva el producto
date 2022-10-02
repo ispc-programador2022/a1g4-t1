@@ -1,1 +1,18 @@
+from itertools import combinations
+import random
+import math
 
+num_rand = []
+
+def genrnd(a, b):
+    for i in range(50):
+        num_rand.append(random.uniform(a,b))
+        
+def comb_prod(c):
+    list = combinations(c, 2)
+    for i in list(list):
+        print(math.prod(i))
+        
+genrnd(1000, 2000)
+print(num_rand)
+comb_prod(num_rand)
