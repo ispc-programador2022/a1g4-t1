@@ -1,0 +1,20 @@
+import random
+import statistics
+
+num_rand = []
+mediana_num_rand =[]
+
+def genrnd(a, b):
+    for i in range(500000000000000000):
+        num_rand.append(random.uniform(a,b))
+      
+
+def mediana(d):
+    mediana_num_rand = statistics.median(d)
+    return mediana_num_rand
+        
+genrnd(100, 200)
+
+print(num_rand)
+
+print(mediana(num_rand))
