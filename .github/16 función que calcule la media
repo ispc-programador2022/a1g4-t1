@@ -1,0 +1,19 @@
+import random
+import statistics
+
+num_rand = []
+med_num_rand = []
+
+def genrnd(a, b):
+    for i in range(50):
+        num_rand.append(random.uniform(a,b))
+      
+def media(c):
+    med_num_rand = statistics.mean(c)
+    return med_num_rand
+        
+genrnd(1000, 2000)
+
+print(num_rand)
+
+print(media(num_rand))
