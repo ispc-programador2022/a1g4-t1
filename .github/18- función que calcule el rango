@@ -1,0 +1,21 @@
+import random
+import statistics
+
+num_rand = []
+med_num_rand = []
+mediana_num_rand =[]
+
+def genrnd(a, b):
+    for i in range(50):
+        num_rand.append(random.uniform(a,b))
+      
+
+def rango(e):
+    rango_num_rand = len(e)
+    return rango_num_rand
+        
+genrnd(100, 200)
+
+print(num_rand)
+
+print(rango(num_rand))
