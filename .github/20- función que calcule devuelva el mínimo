@@ -1,0 +1,20 @@
+import random
+import statistics
+
+num_rand = []
+minimo_num_rand = []
+
+def genrnd(a, b):
+    for i in range(50):
+        num_rand.append(random.uniform(a,b))
+        
+def minimo(g):
+    minimo_num_rand = min(g)
+    return minimo_num_rand
+
+
+genrnd(100, 200)
+
+print(num_rand)
+
+print(minimo(num_rand))
