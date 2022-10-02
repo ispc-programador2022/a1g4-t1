@@ -13,3 +13,4 @@ def comb_suma(c):
         
 genrnd(1000, 2000)
 print(num_rand)
+comb_suma(num_rand)
